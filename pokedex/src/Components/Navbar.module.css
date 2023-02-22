@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo 
