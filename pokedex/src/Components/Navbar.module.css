@@ -6,4 +6,22 @@
     padding: 0 50px;
 }
 
-.logo 
+.logo {
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: auto 0;
+}
+.list {
+    display: flex;
+    list-style: none;
+}
+.list li {
+    padding: 15px;
+    cursor: pointer;
+    color: rgb(83, 32, 40);
+    font-weight: bold;
+}
+.list li:hover {
+    color: navy;
+}
