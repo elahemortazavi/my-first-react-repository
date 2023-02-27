@@ -1,0 +1,10 @@
+.container {
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+
+.container p {
+    line-height: 50px;
+    font-weight: bold;
+}
