@@ -3,7 +3,7 @@
 }
 .container {
     margin: 10px;
-    background-color: pink;
+    background-color: rgb(250, 214, 220);
     border-radius:  10px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgb(189 189 189);
