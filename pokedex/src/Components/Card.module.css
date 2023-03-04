@@ -40,5 +40,5 @@
     font-weight: bold;
 }
 .deactive {
-    
+    opacity: 0.3;
 }
