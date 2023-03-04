@@ -13,7 +13,7 @@ class Logo extends Component {
                 <img src = {b} alt = "blogo" /> 
                 <img src = {c} alt = "clogo" />
               </div>
-                
+
             </div>
         );
     }
