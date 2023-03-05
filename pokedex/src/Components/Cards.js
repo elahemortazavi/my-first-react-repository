@@ -8,13 +8,28 @@ import flowerD from "../images/flowerD.jpg";
 
 
 class Cards extends Component {
+ constructor(){
+  super();
+  this.state= {
+    flowerData: [
+      { image:flowerA, name:"flowerA", cost:"20 $" },
+      { image:flowerB, name:"flowerB", cost:"25 $" },
+      { image:flowerC, name:"flowerC", cost:"40 $" },
+      { image:flowerD, name:"flowerD", cost:"30 $" },
+    ],
+  };
+ }
+
     render() {
         return (
           <div className = {styles.container}>
-            <Card image={flowerA} name="flowerA" cost="20 $" />
+            {/* <Card image={flowerA} name="flowerA" cost="20 $" />
             <Card image={flowerB} name="flowerB" cost="25 $" />
             <Card image={flowerC} name="flowerC" cost="40 $" />
-            <Card image={flowerD} name="flowerD" cost="30 $" />
+            <Card image={flowerD} name="flowerD" cost="30 $" /> */}
+            {this.state.flowerData.map((flower) => <Card image={flower.image} name={flower.name} cost={flower.cost} />)}
+
+
           </div>
         );
     }
