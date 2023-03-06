@@ -5,7 +5,7 @@ import flowerA from "../images/flowerA.jpg";
 import flowerB from "../images/flowerB.jpg";
 import flowerC from "../images/flowerC.jpg";
 import flowerD from "../images/flowerD.jpg";
-import {v4} from "uuid";
+import { v4 } from "uuid";
 
 
 class Cards extends Component {
