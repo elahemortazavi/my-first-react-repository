@@ -29,6 +29,7 @@ class Cards extends Component {
             <Card image={flowerC} name="flowerC" cost="40 $" />
             <Card image={flowerD} name="flowerD" cost="30 $" /> */}
             {this.state.flowerData.map((flower) => <Card key={flower.id} image={flower.image} name={flower.name} cost={flower.cost} />)}
+            {/* if wanted to use "uuid" the key should be key={v4}. */}
 
 
           </div>
