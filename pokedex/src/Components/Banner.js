@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Banner.module.css";
 import banner from "../images/banner.jpg";
-import tulip from "../images/tulipbook.jpg"
+import tulip from "../images/anni.jpg";
 
 const Banner = () => {
     return (
