@@ -1,36 +1,37 @@
 .container {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  /* position: relative; */
+  height: 50vh;
 }
 
 .container img {
-    width: 100%;
-    height: 70vh;
-    background-size: cover;
-    background-size: contain;
-    border-bottom: 10px solid navy;
-    border-top: 10px solid #fff;
-    
+  width: 100%;
+ /* height: auto;  */
+  overflow: hidden;
+  background-size: cover;
+  background-size: contain;
+  border-bottom: 10px solid navy;
+  border-top: 10px solid #fff;
 }
 
 .textContainer {
-    position: absolute;
-    top: 300px;
-    left: 100px;
+  position: absolute;
+  top: 300px;
+  left: 100px;
 }
 
 .textContainer h1 {
-    font-size: 7rem;
-    font-weight: bolder;
-    color: rgb(108, 6, 23);
+  font-size: 7rem;
+  font-weight: bolder;
+  color: rgb(108, 6, 23);
 }
 .textContainer p {
-    font-size: 4rem;
-    margin-top: 20px;
-    color: rgb(108, 6, 23);
+  font-size: 4rem;
+  margin-top: 20px;
+  color: rgb(108, 6, 23);
 }
 
 .textContainer span {
-    color: rgb(48, 12, 106);
-    font-weight: bold;
+  color: rgb(48, 12, 106);
+  font-weight: bold;
 }
